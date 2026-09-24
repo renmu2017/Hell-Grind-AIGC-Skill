@@ -1,11 +1,15 @@
 ---
 name: hell-grind-aigc-skill
-description: Use when Codex needs to structure, manage, audit, or diagnose an AIGC video project; create or polish model-agnostic image or video prompts; preserve prompt intent and hard constraints; or connect assets, scenes, shots, generations, continuity, review, and delivery into a traceable workflow.
+description: Use when structuring, managing, auditing, or diagnosing an AIGC video project; creating or polishing model-agnostic image and video prompts; or tracking assets, shots, generations, and continuity while preserving creative intent and hard constraints.
 ---
 
 # Hell Grind AIGC Skill
 
-Use this single parent Skill as a model-agnostic AIGC production system. Keep approved project facts, creative instructions, provider settings, generation attempts, and review decisions separate.
+Use this Skill as a model-agnostic AIGC production workflow in an AI assistant or agent that can read its instructions and supporting files. Keep approved project facts, creative instructions, provider settings, generation attempts, and review decisions separate. Local scripts require Python 3.10+; prompt writing itself does not require a shell or a generation API.
+
+Adapt the visual language to the user's brief: live-action realism, stylized animation, illustration, product imagery, or another explicitly chosen medium. Preserve identity, counts, spatial relationships, timing, and continuity while changing rendering, materials, lighting, and motion conventions. Do not carry photorealistic skin, natural-light rules, or physical-camera language into a style where they conflict with the brief.
+
+Use the user's requested output language. References contain Chinese and English production terminology; client-specific UI metadata is optional and does not change the core workflow.
 
 ## Classify the request
 
