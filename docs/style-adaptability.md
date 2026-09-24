@@ -6,9 +6,9 @@
 
 **Lock the intent, then choose its visual treatment.** The same original scene appears below in several styles so you can see what stays fixed and what changes.
 
-这些是提示词设计示例，未调用生成模型，不构成跨模型画质、连续性或成功率测试。README 中的 Hell Grind 图片仅用于说明研究来源。
+本页是提示词设计示例，未调用生成模型，不构成跨模型画质、连续性或成功率测试。实际生成的原创写实案例及提示词见 [AFTER THE TIDE](../examples/after-the-tide/README.md)。
 
-These are prompt-design examples, not generated results or cross-model quality, continuity, or success-rate tests. The Hell Grind images in the README illustrate the source of inspiration.
+This page contains prompt-design examples, not generated results or cross-model quality, continuity, or success-rate tests. For an original generated case in cinematic realism, see [AFTER THE TIDE](../examples/after-the-tide/README.md).
 
 ## 共同约束 / Shared contract
 

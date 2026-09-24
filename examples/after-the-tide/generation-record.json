@@ -1,0 +1,32 @@
+{
+  "date": "2026-09-24",
+  "generator": "OpenAI built-in image_gen.imagegen",
+  "model_version": "unspecified",
+  "seed": "unspecified",
+  "image_calls": 4,
+  "retained_images": 3,
+  "reference_inputs": "Only images generated in this case; the initial close-up was text-only.",
+  "files": [
+    {
+      "path": "docs/assets/after-the-tide-closeup.png",
+      "bytes": 2209611,
+      "width": 1672,
+      "height": 941,
+      "sha256": "c763ddbe8f96e2ffb525646308a5b4489e97f5068c4c0ab00457bc5a5ca094c0"
+    },
+    {
+      "path": "docs/assets/after-the-tide-poster.png",
+      "bytes": 2230937,
+      "width": 1672,
+      "height": 941,
+      "sha256": "649451ea5f827b33d50fa747befa68ee5daa386b813facfbf8b20399c28374cc"
+    },
+    {
+      "path": "docs/assets/after-the-tide-wide.png",
+      "bytes": 2389043,
+      "width": 1672,
+      "height": 941,
+      "sha256": "85550df7e1042455b812f29b3d2de8a53a7da90d60f0dae68b92dfd6198280f3"
+    }
+  ]
+}

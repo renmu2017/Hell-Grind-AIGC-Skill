@@ -14,9 +14,9 @@
 
 </div>
 
-[![Hell Grind 官方封面：红白色主视觉与角色拼贴](https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd2ol7oe51mr4n9.cloudfront.net%2Fuser_3DceaodfgWmy2JKTLmokw2y8gJA%2F32407819-ad11-4c45-a0df-96ff71e51f80.png&w=1280&q=85)](https://higgsfield.ai/@higgsfield.studio/projects/hell-grind)
+[![AFTER THE TIDE 原创概念海报：风暴后的海上气象站与黄色雨衣工程师](docs/assets/after-the-tide-poster.png)](examples/after-the-tide/README.md)
 
-*配图：Higgsfield Studio《Hell Grind》官方封面，点击查看原项目。它展示本 Skill 的研究来源，不是本 Skill 生成的作品。图片来源与许可见 [NOTICE](NOTICE.md)。*
+*原创视觉示例《AFTER THE TIDE》：使用本 Skill 组织提示词，通过 AI 图像工具生成。点击查看[完整提示词与制作记录](examples/after-the-tide/README.md)。这是概念海报，未制作成影片。*
 
 Hell Grind AIGC Skill 将**提示词创作、生产管理和失败诊断**组织为一套可复用的工作流。你可以从一个画面、一条视频提示词或一份短片 brief 开始，再按需要扩展到资产、场次、镜头、生成记录、选片与交付。
 
@@ -69,22 +69,28 @@ Skill 以 Markdown、模板和本地脚本交付，采用 [Agent Skills](https:/
 
 需要让客户端自动发现 Skill 时，复制整个 `skill/hell-grind-aigc-skill/` 文件夹到其支持的 skills 目录。参阅[通用安装、Claude Code 与 Codex 配置](docs/installation.md)，不要只复制入口文件。
 
-## 一种方法，多种视觉风格
+## 原创示例：AFTER THE TIDE
 
-Hell Grind 原作提供了研究素材。本 Skill 将身份、空间、动作和连续性抽成通用约束，让视觉表现服从你自己的 brief。
+**风暴过后，一位工程师修复海上气象站的信标，等待远方的回应。** 从这个独立设定出发，我们用本 Skill 定义人物、服装、道具、空间和光色，再生成海报与两张概念剧照。
 
 <table>
   <tr>
-    <td width="50%"><a href="https://higgsfield.ai/@higgsfield.studio/projects/hell-grind"><img src="https://images.higgs.ai/?default=1&amp;output=webp&amp;url=https%3A%2F%2Fd2ol7oe51mr4n9.cloudfront.net%2Fuser_3DceaodfgWmy2JKTLmokw2y8gJA%2Fffd11783-e9c6-4b91-953f-587c54b77be0.jpg&amp;w=640&amp;q=85" alt="Hell Grind 官方剧照：林间道路全景与人物站位" width="100%"></a></td>
-    <td width="50%"><a href="https://higgsfield.ai/@higgsfield.studio/projects/hell-grind"><img src="https://images.higgs.ai/?default=1&amp;output=webp&amp;url=https%3A%2F%2Fd2ol7oe51mr4n9.cloudfront.net%2Fuser_3DceaodfgWmy2JKTLmokw2y8gJA%2F5ac07c29-b66c-46e8-93fe-c2c2a3a43461.jpg&amp;w=640&amp;q=85" alt="Hell Grind 官方剧照：人物近景中的视线、皮肤质感与侧光" width="100%"></a></td>
+    <td width="50%"><a href="examples/after-the-tide/README.md"><img src="docs/assets/after-the-tide-wide.png" alt="原创 AI 概念剧照：工程师站在海上气象站外，望向风暴后的海面" width="100%"></a></td>
+    <td width="50%"><a href="examples/after-the-tide/README.md"><img src="docs/assets/after-the-tide-closeup.png" alt="原创 AI 概念剧照：黄色雨衣工程师的近景，窗外有一束琥珀色信标光" width="100%"></a></td>
   </tr>
   <tr>
-    <td><strong>空间与环境</strong><br>道路、人物位置与光线方向，都可以写成镜头之间需要保持的约束。</td>
-    <td><strong>表演与质感</strong><br>视线、面部动作与材质响应，可以写成具体的表演和视觉要求。</td>
+    <td><strong>空间与环境</strong><br>用人物尺度、栈道方向、海面和气象站建立可读的空间关系。</td>
+    <td><strong>表演与质感</strong><br>用视线、克制的表情、湿润衣料和冷暖光写出具体画面。</td>
   </tr>
 </table>
 
-*以上两图均引自 Higgsfield Studio 官方项目说明，用于解读方法来源。下面的风格适配是本仓库的设计示例，不是原作的风格分类，也不表示已经完成跨模型生成测试。*
+*三张图均由本次原创提示词生成，参考输入仅使用本案例新生成的图片，未使用 Hell Grind 原作海报、剧照、角色或提示词。制作记录保留了海报道具位置的修正，以及尚未达到逐镜一致性的细节限制。*
+
+**[查看 brief、参考范围、逐图提示词与评审 →](examples/after-the-tide/README.md)**
+
+## 一种方法，多种视觉风格
+
+本 Skill 将身份、空间、动作和连续性抽成通用约束，让视觉表现服从你自己的 brief。上面的案例采用写实电影风格；下面展示可以调整的表达维度，不代表已完成所有风格或跨模型生成测试。
 
 | 视觉方向 | 重点调整 | 继续保留 |
 | --- | --- | --- |
@@ -129,6 +135,7 @@ python3 skill/hell-grind-aigc-skill/scripts/audit_prompt.py \
 | --- | --- |
 | 安装或接入自己的 AI 助手 | [安装指南](docs/installation.md) |
 | 写图、写视频、润色或诊断失败 | [使用指南](docs/usage.md) |
+| 查看真实生成案例与完整提示词 | [AFTER THE TIDE 制作记录](examples/after-the-tide/README.md) |
 | 为同一创意切换视觉风格 | [风格适配示例](docs/style-adaptability.md) |
 | 了解 Skill 的入口与路由 | [SKILL.md](skill/hell-grind-aigc-skill/SKILL.md) |
 | 深入理解提示词与生产结构 | [七层架构](skill/hell-grind-aigc-skill/references/prompt-architecture.md) · [项目 schema](skill/hell-grind-aigc-skill/references/project-schemas.md) |
@@ -137,11 +144,11 @@ python3 skill/hell-grind-aigc-skill/scripts/audit_prompt.py \
 
 ## 来源与致谢
 
-本项目受 Higgsfield Studio 公开的 **Hell Grind** 制作资料启发，独立整理出可复用的工作流、模板、检查工具与原创示例。
+本项目受 Higgsfield Studio 公开的 **Hell Grind** 制作实践启发，结合通用的电影制作、资产管理与质量控制原则，独立总结并编写工作流、模板、检查工具与原创示例。原项目为方法研究提供启发，本仓库的创作案例采用独立的人物、故事与视觉设定。
 
 **[查看 Hell Grind 官方开放项目、影片与制作说明 →](https://higgsfield.ai/@higgsfield.studio/projects/hell-grind)**
 
-本仓库是独立的社区项目，与 Higgsfield Studio 无官方隶属关系。文档中的原作图片通过官方页面所用地址引用，未打包进 Skill，也不是可直接复用的生成素材。原项目材料适用其[官方许可](https://higgsfield.ai/licences/owl-p-nl-1.0)，不适用本仓库的 MIT 许可。详见 [NOTICE](NOTICE.md)。
+本仓库是独立的社区项目，与 Higgsfield Studio 无官方隶属关系。当前文档展示本仓库的原创 AI 概念图；原项目材料适用其[官方许可](https://higgsfield.ai/licences/owl-p-nl-1.0)，不适用本仓库的 MIT 许可。详见 [NOTICE](NOTICE.md)。
 
 ## 参与贡献
 
@@ -151,4 +158,4 @@ python3 skill/hell-grind-aigc-skill/scripts/audit_prompt.py \
 
 ## 许可证
 
-本仓库原创代码、文档、模板与示例采用 [MIT License](LICENSE)。复制或分发时保留版权与许可声明；第三方名称与引用图片的权利边界见 [NOTICE](NOTICE.md)。
+本仓库原创代码、文档、模板与示例采用 [MIT License](LICENSE)，以维护者有权许可的范围为限。复制或分发时保留版权与许可声明；生成图片与第三方名称的说明见 [NOTICE](NOTICE.md)。

@@ -14,9 +14,9 @@ A reusable skill for AI image and video creation · Model-agnostic · From one c
 
 </div>
 
-[![Official Hell Grind cover with red-and-white artwork and a character montage](https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd2ol7oe51mr4n9.cloudfront.net%2Fuser_3DceaodfgWmy2JKTLmokw2y8gJA%2F32407819-ad11-4c45-a0df-96ff71e51f80.png&w=1280&q=85)](https://higgsfield.ai/@higgsfield.studio/projects/hell-grind)
+[![AFTER THE TIDE original concept poster: an offshore weather station and a lone engineer in a yellow rain jacket](docs/assets/after-the-tide-poster.png)](examples/after-the-tide/README.md)
 
-*Official cover of Hell Grind by Higgsfield Studio. Click to explore the original project. This is a source reference, not an output made with this Skill. See [NOTICE](NOTICE.md) for image credits and licensing.*
+*AFTER THE TIDE, an original visual study: prompts developed with this Skill and rendered with an AI image tool. Explore the [full prompts and production notes](examples/after-the-tide/README.md). This is concept artwork; no film has been produced.*
 
 Hell Grind AIGC Skill brings **prompt crafting, production management, and failure diagnosis** into one reusable workflow. Start with an image, a video prompt, or a film brief. Add asset records, scene maps, shot contracts, generation logs, selections, and delivery checks as your project grows.
 
@@ -73,22 +73,28 @@ Platform adapter: unspecified.
 
 For automatic skill discovery, copy the entire `skill/hell-grind-aigc-skill/` folder into your client's supported skills directory. The [installation guide](docs/installation.md) covers generic setup, Claude Code, and Codex. Keep the references, scripts, and templates with the entry point.
 
-## One workflow, many visual styles
+## Original showcase: AFTER THE TIDE
 
-The workflow separates identity, space, action, and continuity from the visual treatment you choose.
+**After a storm, a lone engineer restores an offshore weather station's beacon and waits for a distant reply.** Starting with this independent brief, we used the Skill to define character, wardrobe, props, space, and lighting before generating a poster and two concept stills.
 
 <table>
   <tr>
-    <td width="50%"><a href="https://higgsfield.ai/@higgsfield.studio/projects/hell-grind"><img src="https://images.higgs.ai/?default=1&amp;output=webp&amp;url=https%3A%2F%2Fd2ol7oe51mr4n9.cloudfront.net%2Fuser_3DceaodfgWmy2JKTLmokw2y8gJA%2Fffd11783-e9c6-4b91-953f-587c54b77be0.jpg&amp;w=640&amp;q=85" alt="Official Hell Grind still: a wide view of a forest road and character positions" width="100%"></a></td>
-    <td width="50%"><a href="https://higgsfield.ai/@higgsfield.studio/projects/hell-grind"><img src="https://images.higgs.ai/?default=1&amp;output=webp&amp;url=https%3A%2F%2Fd2ol7oe51mr4n9.cloudfront.net%2Fuser_3DceaodfgWmy2JKTLmokw2y8gJA%2F5ac07c29-b66c-46e8-93fe-c2c2a3a43461.jpg&amp;w=640&amp;q=85" alt="Official Hell Grind still: facial performance, skin texture, and side lighting" width="100%"></a></td>
+    <td width="50%"><a href="examples/after-the-tide/README.md"><img src="docs/assets/after-the-tide-wide.png" alt="Original AI concept still: an engineer outside an offshore weather station, looking out to sea" width="100%"></a></td>
+    <td width="50%"><a href="examples/after-the-tide/README.md"><img src="docs/assets/after-the-tide-closeup.png" alt="Original AI concept still: a close-up of the engineer with an amber beacon beyond rain-streaked glass" width="100%"></a></td>
   </tr>
   <tr>
-    <td><strong>Space and environment</strong><br>Turn landmarks, positions, and light direction into continuity constraints.</td>
-    <td><strong>Performance and texture</strong><br>Describe eyelines, facial actions, and material response as observable requirements.</td>
+    <td><strong>Space and environment</strong><br>Establish scale and spatial relationships through the figure, causeway, sea, and station.</td>
+    <td><strong>Performance and texture</strong><br>Specify eyelines, restrained expression, wet fabric, and motivated warm and cool light.</td>
   </tr>
 </table>
 
-*These stills come from Higgsfield Studio's official project brief. The adaptations below are this repository's design examples, not categories of the original film or evidence of cross-model generation tests.*
+*All three images were made from newly written prompts. Image references were limited to artwork generated for this case; no Hell Grind poster, still, character, or source prompt was used. The production notes record a prop-placement correction and remaining detail differences between images.*
+
+**[Explore the brief, reference scopes, exact prompts, and review →](examples/after-the-tide/README.md)**
+
+## One workflow, many visual styles
+
+The workflow separates identity, space, action, and continuity from the visual treatment you choose. The showcase uses cinematic realism; the table below describes adaptable dimensions, not completed tests of every style or model.
 
 | Visual direction | Adapt | Preserve |
 | --- | --- | --- |
@@ -133,6 +139,7 @@ A passing project check confirms record integrity. A prompt score reflects struc
 | --- | --- |
 | Install or connect your assistant | [Installation](docs/installation.md) |
 | Write, polish, diagnose, or audit | [Usage guide](docs/usage.md) |
+| Inspect generated artwork and its full prompts | [AFTER THE TIDE production notes](examples/after-the-tide/README.md) |
 | Adapt a creative idea to another visual style | [Style examples](docs/style-adaptability.md) |
 | Understand the skill entry point | [SKILL.md](skill/hell-grind-aigc-skill/SKILL.md) |
 | Explore production structure | [Prompt architecture](skill/hell-grind-aigc-skill/references/prompt-architecture.md) · [Project schemas](skill/hell-grind-aigc-skill/references/project-schemas.md) |
@@ -143,11 +150,11 @@ The entry point uses English with Chinese workflow labels. Detailed production r
 
 ## Source and credits
 
-This independent community project was informed by Higgsfield Studio's publicly shared **Hell Grind** production materials.
+This independent community project takes inspiration from Higgsfield Studio's publicly shared **Hell Grind** production practice. Its workflows, templates, tools, and examples are independently written, drawing on general filmmaking, asset management, and quality control principles. The source project informs the method; our creative examples use independent characters, stories, and visual settings.
 
 **[Explore the official Hell Grind film, open project, and production brief →](https://higgsfield.ai/@higgsfield.studio/projects/hell-grind)**
 
-We are not affiliated with Higgsfield Studio. Original-film images are linked from the addresses used by the official page; they are not included in the Skill package or offered as generation assets. Source materials are subject to the [upstream license](https://higgsfield.ai/licences/owl-p-nl-1.0), not this repository's MIT license. See [NOTICE](NOTICE.md).
+We are not affiliated with Higgsfield Studio. Current documentation displays our original AI concept artwork. Source-project materials remain subject to the [upstream license](https://higgsfield.ai/licences/owl-p-nl-1.0), not this repository's MIT license. See [NOTICE](NOTICE.md).
 
 ## Contributing
 
@@ -157,4 +164,4 @@ If the workflow helps your work, consider starring the repository or sharing it 
 
 ## License
 
-Original code, documentation, templates, and examples are available under the [MIT License](LICENSE). Retain the copyright and permission notice when copying or distributing. Third-party names and linked imagery are covered separately in [NOTICE](NOTICE.md).
+Original code, documentation, templates, and examples are available under the [MIT License](LICENSE), to the extent the maintainers hold the relevant rights. Retain the copyright and permission notice when copying or distributing. See [NOTICE](NOTICE.md) for generated-image provenance and third-party names.

@@ -8,31 +8,37 @@ Original repository content is licensed under the [MIT License](LICENSE), to the
 
 ## Hell Grind source project
 
-The workflow was informed by publicly accessible production materials for **Hell Grind by Higgsfield Studio**.
+The workflow takes inspiration from the publicly shared production practice of **Hell Grind by Higgsfield Studio**. General filmmaking, asset management, prompt design, and quality control ideas were independently organized into the methods, templates, and tools in this repository. The examples introduce their own characters, settings, and stories.
 
 - [Official film, open project, and production brief](https://higgsfield.ai/@higgsfield.studio/projects/hell-grind)
 - [License linked by the official project: OWL-P-NL-1.0](https://higgsfield.ai/licences/owl-p-nl-1.0)
 
 The upstream materials have their own terms and exclusions. This repository does not relicense them under MIT or grant permission to reuse the original characters, likenesses, assets, prompts, or media in a generation tool. Consult the original project and its current license for those uses.
 
-No original film file, source asset pack, bulk prompt dataset, or long project-specific source prompt is distributed in the Skill package.
+No original film file, source asset pack, bulk prompt dataset, or long project-specific source prompt is distributed in the Skill package. The source-project link is provided for acknowledgement and further reading; it is not an input to the generated showcase.
 
-## Images referenced in the READMEs
+## Original AI-generated showcase
 
-The Chinese and English READMEs link to three images from the official project page, displayed through Higgsfield's image service as resized WebP previews. The image content is not creatively edited. They identify and discuss the source project; they are not this Skill's outputs, bundled assets, or style-transfer inputs. No local copies are included in the repository.
+The Chinese and English READMEs display **AFTER THE TIDE**, an original concept poster and two concept stills commissioned for this repository on 2026-09-24. The prompts were developed using this Skill and rendered with the built-in OpenAI image generation tool. They illustrate an imagined production; they are not frames from a completed film.
 
-**Credit: Hell Grind by Higgsfield Studio.** The official project links to **OWL-P-NL-1.0**. These references do not expand that license or the rights it grants.
+The first image was generated from text alone. Later images used only newly generated artwork from the same case as scoped references. No Hell Grind poster, still, character image, asset, or source prompt was supplied to the image tool. The concept uses a new story, a fictional signal engineer, and an offshore weather station.
 
-| Image | Official-page context | Source image |
-| --- | --- | --- |
-| Cover | “About the project”; displayed as `Hell Grind-Cover_16x9.png` | [Official cover](https://d2ol7oe51mr4n9.cloudfront.net/user_3DceaodfgWmy2JKTLmokw2y8gJA/32407819-ad11-4c45-a0df-96ff71e51f80.png) |
-| Forest-road wide shot | Location and camera-angle discussion; displayed as `Still 2026-05-22 202215_2.1.1.jpg` | [Official location still](https://d2ol7oe51mr4n9.cloudfront.net/user_3DceaodfgWmy2JKTLmokw2y8gJA/ffd11783-e9c6-4b91-953f-587c54b77be0.jpg) |
-| Character close-up | Performance discussion; displayed as `Still 2026-05-22 202215_1.621.1.jpg` | [Official performance still](https://d2ol7oe51mr4n9.cloudfront.net/user_3DceaodfgWmy2JKTLmokw2y8gJA/5ac07c29-b66c-46e8-93fe-c2c2a3a43461.jpg) |
+| Asset | Provenance and record |
+| --- | --- |
+| [Concept poster](docs/assets/after-the-tide-poster.png) | [Initial prompt and targeted revision](examples/after-the-tide/poster-prompt.md) |
+| [Environmental still](docs/assets/after-the-tide-wide.png) | [Prompt and reference scope](examples/after-the-tide/wide-prompt.md) |
+| [Character close-up](docs/assets/after-the-tide-closeup.png) | [Text-only prompt](examples/after-the-tide/closeup-prompt.md) |
 
-Source-page context and links were checked on 2026-09-24. Externally hosted images may change or become unavailable; the official project link remains the reference entry point.
+Creative direction and selection: repository maintainers, assisted by AI. Generation: OpenAI image generation tool. Exact model version and seed were not exposed by the tool. The [production notes](examples/after-the-tide/README.md) document reference inheritance, the edit history, and remaining visual limitations.
+
+The maintainers include these generated examples under the repository's MIT terms to the extent they hold licensable rights. This does not grant rights in third-party names or imply that AI-generated elements have exclusive copyright protection. No affiliation or endorsement is implied by a descriptive source credit.
+
+The current READMEs no longer embed official Hell Grind artwork. Earlier Git revisions recorded external image links; this update does not rewrite repository history.
 
 ## 中文说明
 
-本仓库原创内容采用 MIT 许可。Hell Grind 原作、角色、图片和制作材料适用原项目自己的许可与排除项，不因本仓库引用而变成 MIT 素材。
+本仓库受 Hell Grind 的公开制作实践启发，独立组织通用方法，并编写工作流、模板、工具与示例。原作、角色、图片和制作材料适用原项目自己的许可；来源链接仅用于致谢与延伸阅读。
 
-首页三张图片均引用官方项目原图，并通过 Higgsfield 图片服务缩放为 WebP 预览；画面内容未编辑，注明 Higgsfield Studio 与原项目地址，用于介绍和讨论方法来源。图片未打包进仓库或 Skill，也不是本 Skill 的生成效果证明。风格适配文档中的原创文字示例与这些原作画面分别标注。
+首页三张《AFTER THE TIDE》图片由维护者使用本 Skill 组织原创提示词，再由 OpenAI 图像工具生成。首图从文字生成；后续参考仅来自同一案例的新生成图，未输入 Hell Grind 原作图像、资产或提示词。它们是概念海报与概念剧照，没有对应的已完成影片。完整提示词、一次局部修正与评审限制见制作记录。
+
+原创内容及生成示例按 MIT 条款提供，以维护者有权许可的范围为限；不包含第三方名称的授权，也不保证 AI 生成元素具有排他性著作权。当前文档已移除官方图片引用，旧 Git 历史中的外链记录保留。

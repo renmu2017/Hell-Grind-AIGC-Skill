@@ -52,9 +52,9 @@ Keep initialization, validation, and auditing offline. Validators remain read-on
 
 ## 文档原则 / Documentation principles
 
-写清用户能完成什么，给出最短可用示例，再链接到详细方法。展示现有能力；对设想、历史样本和未验证接入明确标注。图片有准确描述、来源链接与作者署名，原作画面不得写成本 Skill 的生成案例。
+写清用户能完成什么，给出最短可用示例，再链接到详细方法。展示现有能力；对设想、历史样本和未验证接入明确标注。优先用独立创作的示例展示方法；生成图片附提示词、生成工具、参考范围与评审说明。来源项目通过文字和链接致谢，不提交或嵌入它的海报、剧照、角色素材与原始提示词。
 
-Lead with the outcome, provide a small usable example, then link to details. Describe implemented capabilities and label proposals, historical samples, and unverified integrations. Give images accurate descriptions, source links, and creator credits; do not present source-film imagery as outputs of this Skill.
+Lead with the outcome, provide a small usable example, then link to details. Describe implemented capabilities and label proposals, historical samples, and unverified integrations. Prefer independently created examples; include prompts, generation tools, reference scopes, and review notes for generated images. Acknowledge source projects with text and links; do not submit or embed their posters, stills, character assets, or source prompts.
 
 本次文档结构参考了 [Ollama](https://github.com/ollama/ollama) 的简洁入门、[ComfyUI](https://github.com/Comfy-Org/ComfyUI) 的视觉展示与功能导航，以及 [Anthropic Skills](https://github.com/anthropics/skills) 的 Skill 组织和示例说明。参考的是信息组织方式，不复制其品牌、文案或素材，也不暗示关联或背书。
 
